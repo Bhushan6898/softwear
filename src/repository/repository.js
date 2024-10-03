@@ -1,9 +1,9 @@
 import axios from "axios";
 
-export const BaseURL ='http://localhost:3001';
+export const BaseURL ='https://test-3-kxlg.onrender.com';
 
 const axiosInstance = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "https://test-3-kxlg.onrender.com",
     withCredentials: true
 })
 

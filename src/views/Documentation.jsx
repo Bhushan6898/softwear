@@ -112,7 +112,7 @@ const DocumentationView = () => {
                     <div className="col-md-4" key={product._id}>
                       <div className="card h-100">
                         <img
-                          src={`http://localhost:3001${product.imageUrl}`} // Construct the image URL
+                          src={`https://test-3-kxlg.onrender.com${product.imageUrl}`} // Construct the image URL
                           className="card-img-top"
                           alt={product.name}
                           style={{ height: "200px", objectFit: "cover" }}
